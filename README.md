@@ -21,19 +21,6 @@ The project follows a **modular design approach** consisting of five main stages
   - Automatic normalization and rounding (simple rounding)
   - Handles zero, signed numbers, and basic overflow
 
----
-
-## 📁 Project Structure
-
-FloatingPointAdder/
-│
-├── Floating_Point_Adder.v # Top-level module
-├── Unpack_Operands.v # Extracts sign, exponent, mantissa
-├── align.v # Aligns mantissas based on exponent difference
-├── mantissa_add.v # Adds/subtracts the aligned mantissas
-├── normalize.v # Normalizes the result after add/sub
-├── pack.v # Packs the final result into IEEE 754 format
-├── TB_FP_Adder.v # Testbench with 5 test cases
 
 
 ## 🔍 Simulation Results
